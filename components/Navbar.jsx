@@ -12,6 +12,7 @@ export default function Navbar() {
     const handleMoreLeave = () => setIsMoreMenuVisible(false);
     return (
         <>
+            <header className="nav-head">
             <nav className="nav-bar">
                 <section className="nav-left">
                     <section className="img-section">
@@ -36,7 +37,8 @@ export default function Navbar() {
                         </li>
                     </ul>
                 </section>
-            </nav>
+                </nav>
+            </header>
         </>
     )
 }
